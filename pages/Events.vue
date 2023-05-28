@@ -9,11 +9,11 @@
       </section>
   
       <!-- Events Section -->
-      <section class="events py-16">
+      <section class="events py-16" data-aos="fade-down">
         <div class="container mx-auto px-4">
           <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Upcoming Events</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="event-card bg-white rounded-lg p-8 shadow-md">
+            <div class="event-card bg-white rounded-lg p-8 shadow-md" data-aos="fade-right">
               <div class="event-image">
                 <img src="path/to/event-image-1.jpg" alt="Event 1" class="w-full rounded-lg">
               </div>
@@ -22,7 +22,7 @@
                 <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
-            <div class="event-card bg-white rounded-lg p-8 shadow-md">
+            <div class="event-card bg-white rounded-lg p-8 shadow-md" data-aos="fade-up">
               <div class="event-image">
                 <img src="path/to/event-image-2.jpg" alt="Event 2" class="w-full rounded-lg">
               </div>
@@ -31,7 +31,7 @@
                 <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
-            <div class="event-card bg-white rounded-lg p-8 shadow-md">
+            <div class="event-card bg-white rounded-lg p-8 shadow-md" data-aos="fade-left">
               <div class="event-image">
                 <img src="path/to/event-image-3.jpg" alt="Event 3" class="w-full rounded-lg">
               </div>

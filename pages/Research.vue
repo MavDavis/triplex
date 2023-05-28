@@ -112,7 +112,14 @@
       </footer>
     </div>
   </template>
-  
+  <script>
+export default{
+mounted(){
+
+}
+}
+
+</script>
   <style scoped>
   .hero {
     background-image: url('path/to/hero-background.jpg');
