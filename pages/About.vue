@@ -7,16 +7,19 @@
       >
    <img class="w-full h-full" src="../public/pic1.jpg" alt="">
    <div class="absolute top-1/3 font-mono sm:w-1/3 w-full p-4 left-9 text-white bg-opacity-50 bg-white">
-<h1 class="text-3xl font-bold">Contact Us</h1>
-<p class="text-2xl mt-2">We connect the world's top talent 
-with the world's top organizations</p>
+<h1 class="text-3xl font-bold">About Us</h1>
+<p class="text-2xl mt-2">We are a global group of energy and
+ petrochemical companies with more
+ than 90,000 employees in more than
+ 70 countries. We use advanced technologies 
+and take an innovative approach to help
+ build a sustainable energy future.</p>
    </div>
       </div>
     </section>
 
     <!-- Features Section -->
     <section class="py-16" id="features" data-aos="zoom-in">
-      <p class="text-red-400">Leadership Teams</p>
       <div class="mx-auto px-6">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
     
@@ -39,7 +42,7 @@ with the world's top organizations</p>
       </div>
     </section>
 
-<hr/>
+
 
     <!-- What we do Section -->
     <section

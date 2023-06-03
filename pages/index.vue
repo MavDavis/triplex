@@ -1,69 +1,142 @@
 <template>
-  <div>
+  <div class="">
     <!-- Hero Section -->
-    <section
-      class="hero relative bg-gradient-to-r min-h-screen from-purple-500 to-indigo-500 text-black py-24"
-    >
+    <section class="relative min-h-screen my-8 px-6">
       <div
-        class="absolute top-0 left-0 w-full h-full inset-0 bg-gradient-to-b from-white via-white/60 to-transparent"
-      ></div>
-      <div class="container mx-auto  flex justify-center flex-col px-4 relative">
-        <h1 class="text-4xl md:text-6xl font-bold mb-4">
-          Triple Helix <br />
-          <span
-            class="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600"
-            >NIGERIA CHAPTER</span
-          >
-        </h1>
-        <p class="text-lg mb-8 font-semibold">
-          Join us in harnessing the power of the triple helix model for
-          innovation, collaboration, and economic growth.
-        </p>
-        <a href="#features" class="btn"
-          >Get Started <span class="up font-semibold">></span></a
-        >
+        class="flex max-w-full w-screen justify-center items-center h-screen"
+      >
+        <div class="w-3/5 mr-8 h-full">
+          <img
+            class="w-full h-full max-w-full"
+            src="../assets/african-tech 1.png"
+          />
+        </div>
+        <div class="w-2/5 flex flex-col h-full items-center">
+          <img class="w-full h-1/2 max-w-full" src="../assets/image2.png" />
+          <img class="w-full h-1/2 max-w-full" src="../assets/image1.png" />
+        </div>
       </div>
     </section>
 
     <!-- Features Section -->
-    <section class="features py-16" id="features" data-aos="zoom-in">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
-          Our Features
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="feature bg-white rounded-lg p-8 shadow-md">
+    <section class="py-16" id="features" data-aos="zoom-in">
+      <div class="mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="bg-white rounded-lg pb-8 shadow-md">
             <img
-              src="path/to/feature-icon-1.png"
+              src="../assets/image3.png"
+              alt="Feature 1"
+              class="mb-4 mx-auto w-full"
+            />
+            <h3 class="text-xl font-bold mb-2 text-blue-700 text-center px-8">
+              Government
+            </h3>
+            <p class="text-gray-700 text-center px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+            <p class="text-sm font-bold cursor-pointer px-8">Read More</p>
+          </div>
+          <div class="bg-white rounded-lg pb-8 shadow-md">
+            <img
+              src="../assets/image4.png"
+              alt="Feature 1"
+              class="mb-4 mx-auto w-full"
+            />
+            <h3 class="text-xl font-bold mb-2 text-blue-700 text-center px-8">
+              University
+            </h3>
+            <p class="text-gray-700 text-center px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+            <p class="text-sm font-bold cursor-pointer px-8">Read More</p>
+          </div>
+
+          <div class="bg-white rounded-lg pb-8 shadow-md">
+            <img
+              src="../assets/image5.png"
+              alt="Feature 1"
+              class="mb-4 mx-auto w-full"
+            />
+            <h3 class="text-xl font-bold mb-2 text-blue-700 text-center px-8">
+              Industry
+            </h3>
+            <p class="text-gray-700 text-center px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+            <p class="text-sm font-bold cursor-pointer px-8">Read More</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collaboration Section -->
+    <section class="pricing py-16 bg-gray-300" data-aos="fade-right">
+      <div class="mx-auto px-4">
+        <h2 class="text-3xl uppercase md:text-4xl font-bold text-center mb-12">
+          Collaborations
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 justify-center lg:grid-cols-4 gap-8"
+        >
+          <div class="">
+            <img
+              src="../assets/collab1.png"
               alt="Feature 1"
               class="mb-4 mx-auto"
+              style="width: 300px; height: 200px"
             />
-            <h3 class="text-xl font-bold mb-2">Feature 1</h3>
-            <p class="text-gray-700">
+            <h3 class="text-lg font-bold mb-2 text-center">
+              Research And Development
+            </h3>
+            <p class="text-gray-700 text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               feugiat consectetur ullamcorper.
             </p>
           </div>
-          <div class="feature bg-white rounded-lg p-8 shadow-md">
+          <div class="">
             <img
-              src="path/to/feature-icon-2.png"
-              alt="Feature 2"
+              src="../assets/collab2.png"
+              alt="Feature 1"
               class="mb-4 mx-auto"
+              style="width: 300px; height: 200px"
             />
-            <h3 class="text-xl font-bold mb-2">Feature 2</h3>
-            <p class="text-gray-700">
+            <h3 class="text-lg font-bold mb-2 text-center">
+              Research And Development
+            </h3>
+            <p class="text-gray-700 text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               feugiat consectetur ullamcorper.
             </p>
           </div>
-          <div class="feature bg-white rounded-lg p-8 shadow-md">
+          <div class="">
             <img
-              src="path/to/feature-icon-3.png"
-              alt="Feature 3"
+              src="../assets/collab3.png"
+              alt="Feature 1"
               class="mb-4 mx-auto"
+              style="width: 300px; height: 200px"
             />
-            <h3 class="text-xl font-bold mb-2">Feature 3</h3>
-            <p class="text-gray-700">
+            <h3 class="text-lg font-bold mb-2 text-center">
+              Research And Development
+            </h3>
+            <p class="text-gray-700 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+          </div>
+          <div class="">
+            <img
+              src="../assets/collab4.png"
+              alt="Feature 1"
+              class="mb-4 mx-auto"
+              style="width: 300px; height: 200px"
+            />
+            <h3 class="text-lg font-bold mb-2 text-center">
+              Research And Development
+            </h3>
+            <p class="text-gray-700 text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               feugiat consectetur ullamcorper.
             </p>
@@ -72,135 +145,125 @@
       </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section class="pricing py-16" data-aos="fade-right">
+    <!-- What we do Section -->
+    <section
+      class="testimonials text-white bg-blue-500 py-16"
+      data-aos="fade-left"
+    >
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-semibold text-center mb-4">
+          What we do ?
+        </h2>
+        <p class="text-2xl text-center">
+          We are known as high-skilled marketplace and we see an acute pain
+          point within that area,
+        </p>
+      </div>
+    </section>
+
+    <!-- Publication Section -->
+    <section class="faq py-16 mx-auto" data-aos="flip-left">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
-          Pricing
+          Explore Publications
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div
-            class="pricing-card bg-white rounded-lg p-8 shadow-md text-center"
-          >
-            <h3 class="text-2xl font-bold mb-4">Basic</h3>
-            <p class="text-3xl font-bold mb-4">$19</p>
-            <ul class="text-gray-700 mb-8">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
-            </ul>
-            <a href="#" class="btn btn-primary">Select Plan</a>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto">
+          <div class=" flex flex-col items-center pb-6 bg-gray-300 "  style="max-width: 523px; ">
+            <img
+              src="../assets/lib1.png"
+              alt="Feature 1"
+              class="mb-4 "
+              style="width: 100%;
+height: 387px;"
+            />
+            <h3 class="text-2xl  font-bold mb-2 text-center md:w-3/4 w-full" style="line-height: 2.3rem; ">
+              The Triple Helix Model and Sustainable Development Goals.
+            </h3>
+            <p class="text-gray-700 text-sm text-center md:w-3/4 w-full">
+              A Framework for Collaboration between Academia, Industry, and
+              Government" by Lucy Awuor, Heike Jöns, and Colin Wringe (2020)
+            </p>
           </div>
-          <div
-            class="pricing-card bg-white rounded-lg p-8 shadow-md text-center"
-          >
-            <h3 class="text-2xl font-bold mb-4">Pro</h3>
-            <p class="text-3xl font-bold mb-4">$39</p>
-            <ul class="text-gray-700 mb-8">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
-              <li>Feature 4</li>
-            </ul>
-            <a href="#" class="btn btn-primary">Select Plan</a>
+          <div class="flex flex-col">
+            <div class="bg-gray-300 pb-6" style="max-width: 406px; ">
+            <img
+              src="../assets/collab1.png"
+              alt="Feature 1"
+              class="mb-4 mx-auto"
+              style="width: 100%; height: 200px"
+            />
+            <h3 class="text-lg font-bold mb-2 text-center">
+              Research And Development
+            </h3>
+            <p class="text-gray-700 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
           </div>
-          <div
-            class="pricing-card bg-white rounded-lg p-8 shadow-md text-center"
-          >
-            <h3 class="text-2xl font-bold mb-4">Premium</h3>
-            <p class="text-3xl font-bold mb-4">$79</p>
-            <ul class="text-gray-700 mb-8">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
-              <li>Feature 4</li>
-              <li>Feature 5</li>
-            </ul>
-            <a href="#" class="btn btn-primary">Select Plan</a>
+            <div class="bg-gray-300 mt-4 pb-6" style="max-width: 406px; ">
+            <img
+              src="../assets/lib2.png"
+              alt="Feature 1"
+              class="mb-4 mx-auto"
+              style="width: 100%; height: 200px"
+            />
+            <h3 class="text-lg font-bold mb-2 text-center">
+              Research And Development
+            </h3>
+            <p class="text-gray-700 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+          </div>
           </div>
         </div>
       </div>
     </section>
+<section>
+  <div class="">
+    <h1 class="h1 text-xl font-bold">Text here</h1>  
+    <div class="flex w-full md:flex-row flex-col items-center p-6 py-8">
+<div class="md:w-3/4 w-full ">
+  <img src="../assets/event.png" alt="">
 
-    <!-- Testimonials Section -->
-    <section class="testimonials bg-gray-100 py-16" data-aos="fade-left">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
-          Testimonials
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="testimonial bg-white rounded-lg p-8 shadow-md">
-            <p class="text-gray-700 mb-4">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              feugiat consectetur ullamcorper."
-            </p>
-            <h4 class="text-lg font-bold">John Doe</h4>
-            <p class="text-gray-600">CEO, Company Name</p>
-          </div>
-          <div class="testimonial bg-white rounded-lg p-8 shadow-md">
-            <p class="text-gray-700 mb-4">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              feugiat consectetur ullamcorper."
-            </p>
-            <h4 class="text-lg font-bold">Jane Smith</h4>
-            <p class="text-gray-600">CTO, Company Name</p>
-          </div>
-          <div class="testimonial bg-white rounded-lg p-8 shadow-md">
-            <p class="text-gray-700 mb-4">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              feugiat consectetur ullamcorper."
-            </p>
-            <h4 class="text-lg font-bold">Sarah Johnson</h4>
-            <p class="text-gray-600">COO, Company Name</p>
-          </div>
-        </div>
-      </div>
-    </section>
+</div>
+<div class="md:w-1/4 bg-gray-300 w-full p-4 ">
+  <h1 class="text-lg font-semibold">CONFERENCE</h1>
+  <p>The Conference will be held in presence at La Salle – Ramon Llull University giving the opportunity to explore the Ecosystem of Innovation of Barcelona, a global reference as Knowledge and Smart City. It will be also possible to participate online as this edition of the conference will be organized as a hybrid event, giving participants the opportunity to present and interact from remote..</p>
+  <p class="mt-2 font-semibold">
 
-    <!-- FAQ Section -->
-    <section class="faq py-16" data-aos="flip-left">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
-          Frequently Asked Questions
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="faq-item bg-white rounded-lg p-8 shadow-md">
-            <h3 class="text-xl font-bold mb-4">Question 1?</h3>
-            <p class="text-gray-700 mb-8">Answer to question 1.</p>
-          </div>
-          <div class="faq-item bg-white rounded-lg p-8 shadow-md">
-            <h3 class="text-xl font-bold mb-4">Question 2?</h3>
-            <p class="text-gray-700 mb-8">Answer to question 2.</p>
-          </div>
-          <div class="faq-item bg-white rounded-lg p-8 shadow-md">
-            <h3 class="text-xl font-bold mb-4">Question 3?</h3>
-            <p class="text-gray-700 mb-8">Answer to question 3.</p>
-          </div>
-          <div class="faq-item bg-white rounded-lg p-8 shadow-md">
-            <h3 class="text-xl font-bold mb-4">Question 4?</h3>
-            <p class="text-gray-700 mb-8">Answer to question 4.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-  <ContactSection/>
-
-    <!-- Footer Section -->
-    <footer class="footer bg-gray-800 text-white py-8" >
-      <div class="container mx-auto px-4 text-center">
-        <p>&copy; 2023 Company Name. All rights reserved.</p>
-      </div>
-    </footer>
+The Conference will be held in presence at La Salle – Ramon Llull University giving the opportunity to explore the Ecosystem of innovation of Barcelona, a global reference as Knowledge and Smart City.</p>
+</div>
+    </div>
   </div>
+</section>
+    <!-- sponsor Section -->
+<section>
+  <h1 class="text-2xl text-center font-bold">
+    Our Sponsors
+  </h1>
+  <div class="flex justify-center items-center">
+    <img src="../assets/sponsor1.png" style="max-width: 30%;" alt="">
+    <img src="../assets/sponsor2.png" style="max-width: 30%;" alt="">
+    <img src="../assets/sponsor3.png" style="max-width: 30%;" alt="">
+  </div>
+</section>
+    <!-- Footer Section -->
+    <Footer/>
+<div class="bg-gray-800 p-6 w-full flex items-center">
+<p class="text-white">
+  © 2023 Triple Helix Association - Nigeria Chapter
+</p>
+<i class="fas fa-twitter"></i>
+<i class="fas fa-twitter"></i>
+</div>  </div>
 </template>
-
+<script>
+export default {};
+</script>
 <style scoped>
-.hero {
-  background-image: url("/pic1.jpg");
-  background-size: cover;
-  background-position: center;
+img {
+  max-width: 100%;
 }
 
 .features {
@@ -214,10 +277,6 @@
 }
 .feature {
   text-align: center;
-}
-
-.pricing-card {
-  border: 2px solid #e5e5e5;
 }
 
 .testimonial {
@@ -245,9 +304,7 @@
   height: 120px;
 }
 
-.footer {
-  background-color: #333333;
-}
+
 @-webkit-keyframes uparrow {
   0% {
     -webkit-transform: translateX(0);
@@ -262,5 +319,29 @@
 .up {
   -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
   /* border-bottom:2em solid #00b6f1; */
+}
+.h1 {
+    overflow: hidden;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+.h1:before,
+.h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+}
+.h1:before {
+    right: 0.5em;
+    margin-left: -30%;
+}
+.h1:after {
+    left: 0.5em;
+    margin-right: -30%;
 }
 </style>

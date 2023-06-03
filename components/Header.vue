@@ -1,6 +1,6 @@
 <template>
 	<header
-		class="flex items-center sticky justify-between h-fit py-4 lg:max-w-6xl mx-auto px-5 lg:px-0"
+		class="flex items-center sticky justify-between h-fit py-4 w-full  px-5 border border-b border-black "
 	>
 		<!-- Logo -->
 		<NuxtLink to="/">
@@ -11,18 +11,14 @@
 			<template :key="`Navitem${i}`" v-for="(n, i) in nav">
 				<li>
 					<NuxtLink
-						class="inline-block px-3 py-2 hover:bg-slate-200 transition-all duration-300 bg-gray-50 rounded-full text-sm"
+						class="inline-block px-3 py-2  transition-all duration-300 text-sm"
 						:to="n.link"
 						>{{ n.text }}</NuxtLink
 					>
 				</li>
 			</template>
 		</ul>
-		<a
-			href="#"
-			class="px-5 py-2 text-sm bg-blue-700 text-white rounded-full hover:bg-violet-900 transition-all duration-300"
-			>Register</a
-		>
+	
 	</header>
 </template>
 <script setup>
@@ -40,8 +36,8 @@
 			link: "/contact",
 		},
 		{
-			text: "Research",
-			link: "/research",
+			text: "Publications",
+			link: "/publications",
 		},
 		{
 			text: "Events",
@@ -51,12 +47,13 @@
 </script>
 <style>
 .router-link-active{
-	background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-	color: #ffff;
+	
 
 }
 .router-link-active:hover{
-	background-color: rgb(29 78 216 );
 
+}
+header{
+	width: 100vw;
 }
 </style>

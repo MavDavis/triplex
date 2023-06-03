@@ -81,8 +81,6 @@
     padding: 16px 0;
   }
   
-  .footer {
-    background-color: #333333;
-  }
+ 
   </style>
   
