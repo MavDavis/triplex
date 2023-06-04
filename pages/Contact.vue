@@ -46,44 +46,64 @@ with the world's top organizations</p>
       class="testimonials text-white px-6 justify-between  py-16 flex flex-col md:flex-row"
       data-aos="fade-left"
     >
-      <div class=" md:w-1/2 w-full mx-auto px-4 flex flex-col  justify-center bg-blue-500">
-        <h2 class=" font-semibold mb-4">
-          THA
-        </h2>
-        <p class=" ">
-          The Triple Helix concept refers to a collaborative model of innovation 
-that involves three key actors: academia, industry, and government. 
-This framework recognizes the interdependence and interaction
-between these three sectors in driving economic growth, innovation, 
-and societal development.
-        </p>
-      </div>
-      <div class="md:w-1/2 w-full md:ml-6 ml-0 mt-4 md:mt-0">
-        <img src="../assets/coin.png"/>
-      </div>
-    </section>
-
-  <!-- Features Section -->
-  <section class="py-16" id="features" data-aos="zoom-in">
-      <div class="mx-auto px-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2  gap-4">
     
 
-          <div class="bg-white" v-for="(item, i) in 3" :key="i">
+          <div class="bg-white">
+              <h3 class="text-2xl text-black font-bold mb-2  text-center px-8">
+              Industry
+            </h3>
             <img
-              src="../assets/image5.png"
+              src="../assets/big-engineer.png"
               alt="Feature 1"
               class="mb-4 mx-auto w-full"
             />
-            <h3 class="text-xl font-bold mb-2  text-center px-8">
+            <h3 class="text-lg text-gray-700 text-start font-bold mb-2   px-8">
               Industry
             </h3>
-            <p class="text-gray-700 text-center px-8">
+            <p class="text-gray-700 text-start px-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               feugiat consectetur ullamcorper.
             </p>
           </div>
+           <div class="bg-white">
+              <h3 class="text-2xl text-black font-bold mb-2  text-center px-8">
+              Industry
+            </h3>
+            <img
+              src="../assets/big-engineer.png"
+              alt="Feature 1"
+              class="mb-4 mx-auto w-full"
+            />
+            <h3 class="text-lg text-black font-bold mb-2  text-start px-8">
+              Industry
+            </h3>
+            <p class="text-gray-700 text-start px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+          </div>
         </div>
+    </section>
+
+  <!-- Features Section -->
+  <section class="py-16" id="features" data-aos="zoom-in">
+      <div class="bg-blue-600 flex md:flex-row flex-col text-white  " style="min-height:369px;">
+<div class="md:w-3/5 w-full h-full py-6 pl-6">
+  <p>Plot 76A Fiddil Avenue, off Ordinance Road,
+Trans Amadi Industrial Layout,
+Port Harcourt, Nigeria.
+</p>
+<p class="my-2">+234(0)8111113988, +234(0)8111113974</p>
+<a href="www.triplehelixnigeria.com
+">www.triplehelixnigeria.com</a>
+</div>
+<div class="w-full md:w-2/5  bg-black md:min-h-full md:h-full h-36  relative">
+  <div class="absolute top-1/4 z-10  h-1/2" style="left:-20px">
+    <img class="h-full" src="../public/pen.jpeg"/>
+  </div>
+</div>
       </div>
     </section>
     <!-- Footer Section -->

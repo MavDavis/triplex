@@ -5,13 +5,13 @@
       <div
         class="flex max-w-full w-screen justify-center items-center h-screen"
       >
-        <div class="w-3/5 mr-8 h-full">
+        <div class="md:w-3/5 w-full md:mr-8 mr-0 h-full">
           <img
             class="w-full h-full max-w-full"
             src="../assets/african-tech 1.png"
           />
         </div>
-        <div class="w-2/5 flex flex-col h-full items-center">
+        <div class="md:w-2/5 w-0  hidden md:flex flex-col h-full items-center">
           <img class="w-full h-1/2 max-w-full" src="../assets/image2.png" />
           <img class="w-full h-1/2 max-w-full" src="../assets/image1.png" />
         </div>
@@ -221,9 +221,9 @@ height: 387px;"
     </section>
 <section>
   <div class="">
-    <h1 class="h1 text-xl font-bold">Text here</h1>  
+    <h1 class="h1 text-xl font-bold">LATEST NEWS</h1>  
     <div class="flex w-full md:flex-row flex-col items-center p-6 py-8">
-<div class="md:w-3/4 w-full ">
+<div class="md:w-3/4 w-full md:mr-4 mr-0">
   <img src="../assets/event.png" alt="">
 
 </div>
@@ -235,6 +235,7 @@ height: 387px;"
 The Conference will be held in presence at La Salle – Ramon Llull University giving the opportunity to explore the Ecosystem of innovation of Barcelona, a global reference as Knowledge and Smart City.</p>
 </div>
     </div>
+ 
   </div>
 </section>
     <!-- sponsor Section -->

@@ -1,39 +1,69 @@
 <template>
   <div class="">
     <!-- Hero Section -->
-    <section class="relative min-h-screen my-8 ">
-      <div
-        class="flex h-screen w-screen  items-center"
-      >
-   <img class="w-full h-full" src="../public/pic1.jpg" alt="">
-   <div class="absolute top-1/3 font-mono sm:w-1/3 w-full p-4 left-9 text-white bg-opacity-50 bg-white">
-<h1 class="text-3xl font-bold">About Us</h1>
-<p class="text-2xl mt-2">We are a global group of energy and
- petrochemical companies with more
- than 90,000 employees in more than
- 70 countries. We use advanced technologies 
-and take an innovative approach to help
- build a sustainable energy future.</p>
-   </div>
+    <section class="relative min-h-screen my-8">
+      <div class="flex h-screen w-screen items-center">
+        <img class="w-full h-full" src="../public/pic1.jpg" alt="" />
+        <div
+          class="absolute top-1/3 font-mono sm:w-1/3 w-full p-4 left-9 text-white bg-opacity-50 bg-white"
+        >
+          <h1 class="text-3xl font-bold">THA PUBLICATIONS</h1>
+        </div>
+        <div
+          class="absolute -bottom-3 font-mono sm:w-3/4 w-full p-4 bg-white"
+          style="left: 12.5%"
+        >
+          <p class="text-2xl mt-2">
+            The Triple Helix concept has generated a significant body of
+            research and publications over the years. Here are a few notable
+            publications related to the Triple Helix model
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- Features Section -->
     <section class="py-16" id="features" data-aos="zoom-in">
       <div class="mx-auto px-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-    
-
-          <div class="bg-white" v-for="(item, i) in 6" :key="i">
-            <img
-              src="../assets/image5.png"
-              alt="Feature 1"
-              class="mb-4 mx-auto w-full"
-            />
-            <h3 class="text-xl font-bold mb-2  text-center px-8">
-              Industry
-            </h3>
-            <p class="text-gray-700 text-center px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-white border pb-6" style="max-width: 469px">
+            <div class="flex w-full justify-end">
+              <div
+                class="bg-blue-500 text-white p-2 px-4 text-lg font-semibold"
+              >
+                Article
+              </div>
+            </div>
+            <p class="text-blue-500 italic text-center px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+            <p class="text-blue-500 italic text-center px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+            <p class="text-blue-500 italic text-center px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+          </div>
+          <div class="bg-white border pb-6" style="max-width: 469px">
+            <div class="flex w-full justify-end">
+              <div
+                class="bg-blue-500 text-white text-lg p-2 px-4 font-semibold"
+              >
+                Article
+              </div>
+            </div>
+            <p class="text-blue-500 italic text-center px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+            <p class="text-blue-500 italic text-center px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+            <p class="text-blue-500 italic text-center px-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               feugiat consectetur ullamcorper.
             </p>
@@ -42,56 +72,74 @@ and take an innovative approach to help
       </div>
     </section>
 
-
+    <hr />
 
     <!-- What we do Section -->
     <section
-      class="testimonials text-white px-6 justify-between  py-16 flex flex-col md:flex-row"
+      class="testimonials text-white px-6 justify-between py-16 flex flex-col md:flex-row"
       data-aos="fade-left"
     >
-      <div class=" md:w-1/2 w-full mx-auto px-4 flex flex-col  justify-center bg-blue-500">
-        <h2 class=" font-semibold mb-4">
-          THA
-        </h2>
-        <p class=" ">
-          The Triple Helix concept refers to a collaborative model of innovation 
-that involves three key actors: academia, industry, and government. 
-This framework recognizes the interdependence and interaction
-between these three sectors in driving economic growth, innovation, 
-and societal development.
-        </p>
-      </div>
-      <div class="md:w-1/2 w-full md:ml-6 ml-0 mt-4 md:mt-0">
-        <img src="../assets/coin.png"/>
+      <div class="flex w-full md:w-3/4 justify-center mx-auto items-center">
+        <div class="bg-blue-500 w-full text-white p-6">
+          <h1 class="text-lg font-semibold">Comparison Guide</h1>
+          <h1 class="text-lg font-semibold">THA Publications</h1>
+          <p class="my-4 text-lg" style="max-width: 378px">
+            The concept of the Triple Helix has sparked extensive research and
+            numerous publications over time
+          </p>
+          <button class="bg-white text-black rounded-lg p-2 px-4">
+            Read More
+          </button>
+        </div>
       </div>
     </section>
 
-  <!-- Features Section -->
-  <section class="py-16" id="features" data-aos="zoom-in">
-      <div class="mx-auto px-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-    
-
-          <div class="bg-white" v-for="(item, i) in 3" :key="i">
-            <img
-              src="../assets/image5.png"
-              alt="Feature 1"
-              class="mb-4 mx-auto w-full"
-            />
-            <h3 class="text-xl font-bold mb-2  text-center px-8">
-              Industry
-            </h3>
-            <p class="text-gray-700 text-center px-8">
+    <!-- Features Section -->
+    <section
+      class="testimonials text-white px-6 justify-between py-16 flex flex-col md:flex-row"
+      data-aos="fade-left"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white flex flex-col items-start justify-between">
+          <div class="mb-4">
+            <h3 class="text-2xl text-black font-bold mb-2 px-8">Industry</h3>
+            <p class="text-gray-700 text-start px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Sed feugiat consectetur ullamcorper.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper.
+            </p>
+            <p>
+          Ipsum dolor sit amet,
+              consectetur adipiscing elit. Sed feugiat consectetur ullamcorper.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               feugiat consectetur ullamcorper.
             </p>
           </div>
+          <div class="flex flex-col">
+            <h3 class="text-2xl text-black text-start font-bold mb-2 px-8">
+              Industry
+            </h3>
+            <p class="text-gray-700 text-start px-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              feugiat consectetur ullamcorper. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Sed feugiat consectetur ullamcorper.
+            </p>
+          </div>
+        </div>
+        <div class="bg-white">
+          <img
+            src="../assets/big-engineer.png"
+            alt="Feature 1"
+            class="mb-4 mx-auto w-full"
+          />
         </div>
       </div>
     </section>
     <!-- Footer Section -->
-    <Footer/>
- </div>
+    <Footer />
+  </div>
 </template>
 <script>
 export default {};
@@ -139,7 +187,6 @@ img {
   height: 120px;
 }
 
-
 @-webkit-keyframes uparrow {
   0% {
     -webkit-transform: translateX(0);
@@ -156,27 +203,36 @@ img {
   /* border-bottom:2em solid #00b6f1; */
 }
 .h1 {
-    overflow: hidden;
-    text-align: center;
-    font-weight: 700;
-    font-size: x-large;
+  overflow: hidden;
+  text-align: center;
+  font-weight: 700;
+  font-size: x-large;
 }
 .h1:before,
 .h1:after {
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 30%;
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+.style-absolute {
+  left: -40px;
+}
+@media (max-width: 768px) {
+  .style-absolute {
+    left: 25%;
+    top: -5%;
+  }
 }
 .h1:before {
-    right: 0.5em;
-    margin-left: -30%;
+  right: 0.5em;
+  margin-left: -30%;
 }
 .h1:after {
-    left: 0.5em;
-    margin-right: -30%;
+  left: 0.5em;
+  margin-right: -30%;
 }
 </style>
